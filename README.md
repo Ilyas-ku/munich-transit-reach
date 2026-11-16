@@ -13,6 +13,9 @@ and how far that reach shrinks once real delays and cancellations are counted.
   cancellation rate).
 - **Routing:** a forward Connection Scan runs in the browser on every change;
   walking 4.8 km/h on a 1.3× detour, ≥2 min per transfer.
+- **Commute cost:** home ● and work ◆; a reverse Connection Scan (latest departure that still
+  arrives by the chosen time) in the morning and a forward one 9 h later, timetable vs. the
+  chosen reliability level, averaged over arrivals ±30 min, times the commute days a year.
 - **Population:** Zensus 2022, 100 m grid.
 
 Same method as the Rhein-Main map: https://ilyas-ku.github.io/rhein-main-transit-reach/

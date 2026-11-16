@@ -29,7 +29,7 @@ from scipy.spatial import cKDTree
 HERE = Path(__file__).resolve().parent
 DATA, WEB = HERE / "data", HERE / "web"
 
-OFFICE = (50.1141, 8.6788)                        # destination: set your own
+OFFICE = (50.0985379, 8.6814607)                  # Hedderichstraße 108-110, Nominatim
 BOX = (49.85, 8.20, 50.35, 9.00)                  # Frankfurt metro box of the collector
 DLAT, DLON = 0.0018, 0.0028                       # ~200 m cells
 WALK_M_PER_S = 80 / 60 / 1.3                      # 4.8 km/h along a 1.3x detour of the crow line
